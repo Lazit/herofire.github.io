@@ -1,0 +1,75 @@
+/* 1290px 아래일 때 */
+@media screen and (max-width : 1290px) {
+
+    /* top */
+    .nav-list {
+        display: none;
+    }
+
+    .language {
+        display: none;
+    }
+
+    .logo a img {
+        width: 100%;
+        height: auto;
+        max-width: 170px;
+    }
+
+
+    /* main */
+
+
+    section {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        width: 1220px;
+    }
+
+    .slideshow-container {
+        position: relative;
+        display: flex;
+        align-items: center;
+        max-width: 400px;
+        height: auto;
+        /* margin-top: -180px;
+    margin-left: -200px; */
+    }
+
+    .page1-container {
+        padding-top: 100px;
+        padding-left: 0px;
+        padding-right: 0px;
+        width: 50%;
+    }
+
+    .p1box1 {
+        padding-left: 180px;
+    }
+
+    .p1box2 {
+        display: flex;
+        justify-content: center;
+        align-items: start;
+        padding-right: 180px;
+    }
+
+}
+
+
+
+/* 1290px 이상일 때 */
+
+@media screen and (min-width : 1290px) {
+
+    /* disable side button */
+    #toggle_button {
+        display: none;
+    }
+
+    #side_menu {
+        display: none;
+    }
+
+}

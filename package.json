@@ -1,0 +1,15 @@
+{
+  "homepage" : "https://github.com/Lazit/herofire.github.io.git",
+  "name": "web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy" : "gh-pages -d build",
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

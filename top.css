@@ -1,0 +1,115 @@
+/* 헤더 */
+header {
+    font-weight: bold;
+    position: relative;
+
+}
+
+/* .coverimage img{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+} */
+
+.coverimage {
+    height: 100vh;
+    width: 100vw;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-image: url(src/cover6.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.covertitle span{
+    text-align: center;
+    display: block;
+    line-height:5rem;
+}
+
+.covertitle-top{
+    font-size: 2rem;
+    /* font-weight: 400; */
+    animation: fade-in-bottom 1s;
+}
+    
+.covertitle-under{
+    font-family: 'Exo 2', sans-serif; 
+    font-weight: 500;
+    font-size: 8rem;
+    animation: fade-in-bottom 1.3s;
+}
+
+
+.nav-wrap {
+    position: fixed;
+    top: 0;
+    /* transition: all 0.3s; */
+    width: 100vw;
+    /* margin: 1% 4% 0 4%;/ */
+    z-index: 2;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 90px;
+    position: relative;
+    color: #333;
+    font-size: 120%;
+    font-weight: 800;
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.nav-list {
+    padding: 10px;
+    color: #333;
+}
+
+.logo a img {
+    width: 100%;
+    height: auto;
+    max-width: 200px;
+}
+
+.menu {
+    display: flex;
+    margin-left: -5%;
+}
+
+
+.menu li {
+    /* margin: 0 40px 0 40px */
+}
+
+.menu li a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    height: 60px;
+    margin: 0 20px 0 20px;
+}
+
+.language {
+    display: flex;
+    /* margin-right: 50px; */
+}
+
+.language li {
+    margin: 8px;
+    font-size: 80%;
+}
+
+
+.nav-shadow {
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    height: 70px;
+}
